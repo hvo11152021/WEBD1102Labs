@@ -1,0 +1,75 @@
+body{
+	background-color: #fff;
+	color: #fff;
+	font-family: 'Raleway', sans-serif;
+	font-weight: 300;
+}
+
+h1, h2 {
+	font-family: 'Roboto Slab', sans-serif;
+	font-weight: 700;
+}
+
+h1, h2, h3, header, footer {text-align: center;}
+
+h1 {
+	font-size: 25px;
+	margin-bottom: 8px;
+}
+
+h2, h3 {text-transform: uppercase;}
+
+h2 {
+	font-size: 20px;
+	margin-bottom: 0;
+}
+
+h3 {
+	color: #ff3f59;
+	font-size: 16px;
+	margin: 0;
+}
+
+header h1 {font-size: 40px;}
+
+header img, img {display: block;}
+
+header img {
+	margin: 32px auto 64px auto;
+	width: 85%;
+}
+
+img {
+	margin: 0 auto;
+	width: 65%;
+}
+
+header {
+	background: url('../images/beer-hero.jpg') center no-repeat;
+	background-size: cover;
+	padding: 48px 32px;
+}
+
+section {
+	padding: 48px 32px;
+}
+
+footer {
+	background-color: #ff3f59;
+}
+
+/*******
+Classes
+*******/
+.red-section {
+	background-color: #ff3f59;
+}
+
+.grey-section {
+	background-color: #f3f3f3;
+	color: #000;
+}
+
+.grey-section h1 {
+	color: #ff3f59;
+}

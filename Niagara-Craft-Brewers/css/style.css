@@ -1,4 +1,4 @@
-body{
+body {
 	background-color: #fff;
 	color: #fff;
 	font-family: 'Raleway', sans-serif;
@@ -6,19 +6,29 @@ body{
 	margin: 0;
 }
 
-h1, h2 {
- 	font-family: 'Roboto Slab', serif;
- 	font-weight: 700;
+h1,
+h2 {
+	font-family: 'Roboto Slab', serif;
+	font-weight: 700;
 }
 
-h1, h2, h3, header, footer {text-align: center;}
+h1,
+h2,
+h3,
+header,
+footer {
+	text-align: center;
+}
 
 h1 {
 	font-size: 25px;
 	margin-bottom: 8px;
 }
 
-h2, h3 {text-transform: uppercase;}
+h2,
+h3 {
+	text-transform: uppercase;
+}
 
 h2 {
 	font-size: 20px;
@@ -31,7 +41,10 @@ h3 {
 	margin-top: 0;
 }
 
-header img, img {display: block;}
+header img,
+img {
+	display: block;
+}
 
 header img {
 	margin: 32px auto 64px auto;
@@ -44,13 +57,15 @@ img {
 }
 
 header {
-	background: linear-gradient(rgba(0,0,0,0.35), rgba(0,0,0,0.35)),
-	url('../images/beer-hero.jpg') center no-repeat;
+	background: linear-gradient(rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.35)),
+		url('../images/beer-hero.jpg') center no-repeat;
 	background-size: cover;
 	padding-bottom: 48px;
 }
 
-section {padding: 48px 32px;}
+section {
+	padding: 48px 32px;
+}
 
 footer {
 	background-color: #ff3f59;
@@ -72,7 +87,9 @@ a:hover {
 	text-decoration: underline;
 }
 
-a:active {color: #ff3f59;}
+a:active {
+	color: #ff3f59;
+}
 
 /** Navigation anchors **/
 
@@ -102,7 +119,9 @@ Classes
 	color: #000;
 }
 
-.grey-section h1 {color: #ff3f59;}
+.grey-section h1 {
+	color: #ff3f59;
+}
 
 .black-text,
 .light-brown-block {
@@ -118,7 +137,9 @@ Classes
 	text-align: center;
 }
 
-.dark-brown-block {background-color: #26231c;}
+.dark-brown-block {
+	background-color: #26231c;
+}
 
 .btn {
 	background-color: #ff3f59;
@@ -137,7 +158,8 @@ Classes
 /**********
 Columns
 **********/
-.fwidth-column, .small-column {
+.fwidth-column,
+.small-column {
 	display: grid;
 	margin: auto;
 	max-width: 1440px;
@@ -160,20 +182,33 @@ Columns
 	max-width: 1440px;
 	width: 95%;
 }
+
 /************
 Grid Template Areas
 ************/
-.beer-one-text {grid-area: beeronetxt;}
+.beer-one-text {
+	grid-area: beeronetxt;
+}
 
-.beer-one-image {grid-area: beeroneimg;}
+.beer-one-image {
+	grid-area: beeroneimg;
+}
 
-.beer-two-text {grid-area: beertwotxt;}
+.beer-two-text {
+	grid-area: beertwotxt;
+}
 
-.beer-two-image {grid-area: beertwoimg;}
+.beer-two-image {
+	grid-area: beertwoimg;
+}
 
-.beer-three-text {grid-area: beerthrtxt;}
+.beer-three-text {
+	grid-area: beerthrtxt;
+}
 
-.beer-three-image {grid-area: beerthrimg;}
+.beer-three-image {
+	grid-area: beerthrimg;
+}
 
 .beer-one-text,
 .beer-one-image,
@@ -187,15 +222,15 @@ Grid Template Areas
 .oast-house-wrapper {
 	display: grid;
 	grid-template-columns: 1fr;
-	grid-template-areas: 
+	grid-template-areas:
 		'beeronetxt'
 		'beeroneimg'
 		'beertwotxt'
 		'beertwoimg'
 		'beerthrtxt'
 		'beerthrimg';
-		max-width: 2560px;
-		margin: 0 auto;
+	max-width: 2560px;
+	margin: 0 auto;
 }
 
 .oast-house-wrapper h3 {
@@ -221,7 +256,7 @@ nav li {
 }
 
 nav ul {
-	background: rgba(255,51,102,0.5);
+	background: rgba(255, 51, 102, 0.5);
 	display: none;
 	list-style-type: none;
 	position: absolute;
@@ -252,7 +287,10 @@ Media Queries
 ************/
 
 @media screen and (min-width: 425px) {
-	h1 {font-size: 30px;}
+	h1 {
+		font-size: 30px;
+	}
+
 	video {
 		width: 365px;
 	}
@@ -267,18 +305,30 @@ Media Queries
 	}
 }
 
-@media screen and (min-width:768px){
-	h1 {font-size: 60px;}
+@media screen and (min-width:768px) {
+	h1 {
+		font-size: 60px;
+	}
 
-	header h1 {font-size: 88px;}
+	header h1 {
+		font-size: 88px;
+	}
 
-	h2 {font-size: 36px;}
+	h2 {
+		font-size: 36px;
+	}
 
-	h3 {font-size: 21px;}
+	h3 {
+		font-size: 21px;
+	}
 
-	header {padding: 80px 32px;}
+	header {
+		padding: 80px 32px;
+	}
 
-	section {padding: 80px 32px;}
+	section {
+		padding: 80px 32px;
+	}
 
 	nav ul {
 		background: transparent;
@@ -295,14 +345,16 @@ Media Queries
 		width: 15%;
 	}
 
-	#menu-icon {display: none;}
+	#menu-icon {
+		display: none;
+	}
 
 	.oast-house-wrapper {
 		grid-template-columns: 1fr 1fr;
-		grid-template-areas: 
-		'beeronetxt beeroneimg'
-		'beertwoimg beertwotxt'
-		'beerthrtxt beerthrimg';
+		grid-template-areas:
+			'beeronetxt beeroneimg'
+			'beertwoimg beertwotxt'
+			'beerthrtxt beerthrimg';
 	}
 
 	.oast-house-wrapper img {
@@ -321,15 +373,25 @@ Media Queries
 }
 
 @media screen and (min-width: 1024px) {
-	h1 {font-size: 84px;} 
+	h1 {
+		font-size: 84px;
+	}
 
-	header h1 {font-size: 75px;}
+	header h1 {
+		font-size: 75px;
+	}
 
-	header img {width: 65%;}
+	header img {
+		width: 65%;
+	}
 
-	section {padding: 80px 48px;}
+	section {
+		padding: 80px 48px;
+	}
 
-	.oast-house-wrapper img {width: 45%;}
+	.oast-house-wrapper img {
+		width: 45%;
+	}
 
 	video {
 		width: 928px;
@@ -342,9 +404,13 @@ Media Queries
 }
 
 @media screen and (min-width: 1440px) {
-	header img {width: 30%;}
+	header img {
+		width: 30%;
+	}
 
-	h1 {font-size: 72px;}
+	h1 {
+		font-size: 72px;
+	}
 
 	.oast-house-wrapper img {
 		width: 30%;

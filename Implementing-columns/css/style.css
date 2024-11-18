@@ -13,7 +13,11 @@ body {
 	margin: 0;
 }
 
-h1, h2, h3 {text-align: center;}
+h1,
+h2,
+h3 {
+	text-align: center;
+}
 
 h1 {
 	color: #d12148;
@@ -51,28 +55,44 @@ footer {
 	margin-top: 15%;
 }
 
-.many-columns {		/* use a div, then inside the div, use other div -> grid display will divide equally */
+.many-columns {
+	/* use a div, then inside the div, use other div -> grid display will divide equally */
 	display: grid;
 	margin: 0 auto;
 	width: 75%;
 }
 
 @media only screen and (max-width: 425px) {
-	header {margin: 0 10% 0 10%;}
+	header {
+		margin: 0 10% 0 10%;
+	}
 
-	h1 {font-size: 33px;}
+	h1 {
+		font-size: 33px;
+	}
 
-	h2, h3 {font-size: 12px;}
+	h2,
+	h3 {
+		font-size: 12px;
+	}
 
-	img {padding-top: 25px;}
+	img {
+		padding-top: 25px;
+	}
 
-  	.many-columns {grid-template-columns: repeat(1, 1fr);}
+	.many-columns {
+		grid-template-columns: repeat(1, 1fr);
+	}
 }
 
 @media only screen and (min-width: 426px) {
-  	.many-columns {grid-template-columns: repeat(2, 1fr);}
+	.many-columns {
+		grid-template-columns: repeat(2, 1fr);
+	}
 }
 
 @media only screen and (min-width: 769px) {
-  	.many-columns {grid-template-columns: repeat(3, 1fr);}
+	.many-columns {
+		grid-template-columns: repeat(3, 1fr);
+	}
 }

@@ -9,20 +9,20 @@ h1 {
 	margin: 0;
 }
 
-label{
+label {
 	display: block;
 	margin-bottom: 5px;
 	margin-top: 15px;
 }
 
 select {
-  	display: block;
+	display: block;
 	border: solid #FFF;
 	border-radius: 5px;
 
-  	font-family: inherit;
-  	font-size: inherit;
-  	cursor: pointer;
+	font-family: inherit;
+	font-size: inherit;
+	cursor: pointer;
 }
 
 textarea {
@@ -33,7 +33,9 @@ textarea {
 	border-radius: 5px;
 }
 
-input[type="text"], input[type="email"], input[type="tel"] {
+input[type="text"],
+input[type="email"],
+input[type="tel"] {
 	display: block;
 	height: 20px;
 	width: 50%;
@@ -41,7 +43,8 @@ input[type="text"], input[type="email"], input[type="tel"] {
 	border-radius: 5px;
 }
 
-input[type="number"], input[type="date"] {
+input[type="number"],
+input[type="date"] {
 	display: block;
 	height: 20px;
 	border: solid #FFF;

@@ -1,11 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
 	<title>Computer Repair Reporting</title>
-    <meta charset="utf-8">
-    <meta content="width=device-width, initial-scale=1" name="viewport">
-    <link rel="stylesheet" href="css/style.css">
+	<meta charset="utf-8">
+	<meta content="width=device-width, initial-scale=1" name="viewport">
+	<link rel="stylesheet" href="css/style.css">
 </head>
+
 <body>
 	<div id="container">
 		<header>
@@ -14,26 +16,28 @@
 		<main>
 			<!-- Repair report form -->
 			<form action="https://webdevbasics.net/scripts/demo.php" method="post">
-				<p>There are several methods for reporting a problem at problem to ITS, the easiest way is the fill out the form below and submit it to ITS. If you need immediate assistance or are not able to describe the issue, please call 1-888-FIX-THIS.</p>
+				<p>There are several methods for reporting a problem at problem to ITS, the easiest way is the fill out
+					the form below and submit it to ITS. If you need immediate assistance or are not able to describe
+					the issue, please call 1-888-FIX-THIS.</p>
 
 				<div>
 					<label for="fullname">Full name:</label>
-  					<input id="fullname" name="fullname" type="text" required>
+					<input id="fullname" name="fullname" type="text" required>
 
-  					<label for="email">Email:</label>
-  					<input id="email" name="email" type="email" required>
+					<label for="email">Email:</label>
+					<input id="email" name="email" type="email" required>
 
-	  				<label for="telephone">Telephone:</label>
-	  				<input id="telephone" name="telephone" type="tel">
+					<label for="telephone">Telephone:</label>
+					<input id="telephone" name="telephone" type="tel">
 
-  					<label for="room">Room:</label>
+					<label for="room">Room:</label>
 					<div class="select">
 						<select id="room" name="room" form="roomlabel">
-  							<option value="s308">S308</option>
-  							<option value="s306">S306</option>
-  							<option value="l2">L2</option>
-  							<option value="me201">ME201</option>
-  							<option value="me215">ME215</option>
+							<option value="s308">S308</option>
+							<option value="s306">S306</option>
+							<option value="l2">L2</option>
+							<option value="me201">ME201</option>
+							<option value="me215">ME215</option>
 						</select>
 					</div>
 
@@ -41,9 +45,9 @@
 					<input id="machine-number" name="machine-number" type="number" min="1" max="15" required>
 
 					<p>Does the computer turn on?</p>
-					
+
 					<label for="yes"><input id="yes" name="functional" type="radio" value="yes">Yes</label>
-					
+
 					<label for="no"><input id="no" name="functional" type="radio" value="no">No</label>
 
 					<label for="date">Reporting Date:</label>
@@ -54,12 +58,13 @@
 				</div>
 
 				<p>Please submit this form and we will attempt to get the issue fixed within 12 hours.</p>
-				
+
 				<div>
-					<input type="submit" value="Fix me"> 
-				</div>	
+					<input type="submit" value="Fix me">
+				</div>
 			</form>
 		</main>
 	</div>
 </body>
+
 </html>

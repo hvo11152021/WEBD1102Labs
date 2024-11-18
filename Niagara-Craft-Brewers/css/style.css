@@ -253,6 +253,18 @@ Media Queries
 
 @media screen and (min-width: 425px) {
 	h1 {font-size: 30px;}
+	video {
+		width: 365px;
+	}
+
+	iframe {
+		height: 194px;
+		width: 345px;
+	}
+
+	.small-column {
+		padding-top: 35px;
+	}
 }
 
 @media screen and (min-width:768px){
@@ -297,6 +309,15 @@ Media Queries
 		width: 85%;
 	}
 
+	video {
+		width: 708px;
+	}
+
+	iframe {
+		height: 169px;
+		width: 300px;
+	}
+
 }
 
 @media screen and (min-width: 1024px) {
@@ -309,6 +330,15 @@ Media Queries
 	section {padding: 80px 48px;}
 
 	.oast-house-wrapper img {width: 45%;}
+
+	video {
+		width: 928px;
+	}
+
+	iframe {
+		height: 227px;
+		width: 404px;
+	}
 }
 
 @media screen and (min-width: 1440px) {
@@ -318,5 +348,14 @@ Media Queries
 
 	.oast-house-wrapper img {
 		width: 30%;
+	}
+
+	video {
+		width: 1344px;
+	}
+
+	iframe {
+		height: 150px;
+		width: 266px;
 	}
 }
